@@ -1,0 +1,101 @@
+html, body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+*{
+    transition: ease-in-out .2s;
+}
+.bg-button{
+    background-color: #3ABEB3;
+}
+.text-title{
+    color: #4F1E63;
+}
+.icone-item{
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 20px;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.check{
+    height: 15px !important;
+    width: 15px !important;
+}
+input, label, button{
+    transition: ease-in-out .2s !important;
+}
+.acao-item{
+    margin: auto;
+}
+div>a>span{
+    vertical-align: align-middle !important;
+}
+.form-select:focus{
+    border-color: transparent !important;
+}
+select:focus{
+    border-color: currentColor !important;
+}
+.borderless{
+    border: transparent !important;
+}
+.w-85{
+    width: 85% !important;
+}
+/* Cor de outline personalizada */
+:root{
+    --bs-green: #3ABEB3;
+}
+.bg-grey, .bg-gray{
+    background-color: #ffffff33 !important;
+}
+.bg-green{
+    background-color: #3ABEB344 !important;
+}
+.btn-outline-green:focus, .form-check-input:focus{
+    border-color: #3ABEB3 !important;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(69 228 215 / 50%) !important;
+}
+.btn-outline-green:checked, .form-check-input:checked{
+    background-color: #3ABEB3;
+    border-color: #3ABEB3 !important;
+}
+.btn-outline-green:active{
+    border-color: #3ABEB3 !important;
+}
+button.btn-outline-green:hover{
+    background-color: #3ABEB3;
+    border-color: #3ABEB3 !important;
+    color: white;
+}
+button.btn-outline-green{
+    color: #3ABEB3;
+    border-color: #3ABEB3 !important;
+}
+.border-green{
+    border: 1px solid #3ABEB3 !important;
+}
+
+/* Cor padrão vermelha para inputs, labels e botões */
+.red-accent:focus{
+    border-color: #dc3545 !important;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(220 53 69 / 50%) !important;
+}
+.red-accent:checked{
+    background-color: #dc3545 !important;
+    border-color: #dc3545 !important;
+}
+.red-accent:active{
+    border-color: #dc3545 !important;
+}
+button.red-accent:hover{
+    background-color: #dc3545;
+    border-color: #dc3545 !important;
+    color: white;
+}
+button.red-accent{
+    color: #dc3545 !important;
+    border-color: #dc3545 !important;
+}
